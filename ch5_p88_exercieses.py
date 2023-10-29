@@ -45,7 +45,7 @@ for num in ord_nums:
     if num == 1:
         print('1st')
     elif num == 2:
-        print('2nd')
+        print(str(num) + 'nd')
     elif num == 3:
         print('3rd')
     else:
