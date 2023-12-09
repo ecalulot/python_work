@@ -12,3 +12,16 @@ print(f"Sarah's favorite language is {language}.")
 favorite_languages['edward']
 
 
+for name, language in favorite_languages.items():
+    print(f"\n{name.title()}'s favorite language is {language.title()}.")
+
+
+for name in favorite_languages.keys():
+    print(name.title())
+# looping through the keys is default behavior in Python
+# can easily be done with the following code
+
+for name in favorite_languages: 
+    print(f"{name}")
+    # print(name)
+
