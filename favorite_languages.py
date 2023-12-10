@@ -23,5 +23,5 @@ for name in favorite_languages.keys():
 
 for name in favorite_languages: 
     print(f"{name}")
-    # print(name)
+    print(name) # this works the same just "more efficient"
 
