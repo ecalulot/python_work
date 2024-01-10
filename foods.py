@@ -1,4 +1,4 @@
-my_foods = ['pizza', 'falafel', 'carrot cake']
+my_foods = ['pizza', 'falafel', 'carrot cake', 'shwarma', 'key lime pie', 'pot pie', 'beer']
 friend_foods = my_foods[:] # must include the [:] the slice to get unique and separate lists. 
 
 print("My favorite foods are:")
